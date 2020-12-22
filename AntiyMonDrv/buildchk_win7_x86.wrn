@@ -1,0 +1,105 @@
+1>warnings in directory d:\code\git\antiymonitor-mfc\antiymondrv
+1>d:\wdk7\inc\crt\stdio.h(268) : warning C4995: 'scanf': name was marked as #pragma deprecated
+1>d:\wdk7\inc\crt\stdio.h(284) : warning C4995: 'sscanf': name was marked as #pragma deprecated
+1>d:\wdk7\inc\crt\stdio.h(290) : warning C4995: '_snscanf': name was marked as #pragma deprecated
+1>d:\wdk7\inc\crt\stdio.h(316) : warning C4995: '_snprintf': name was marked as #pragma deprecated
+1>d:\wdk7\inc\crt\stdio.h(316) : warning C4995: '_vsnprintf': name was marked as #pragma deprecated
+1>d:\wdk7\inc\crt\stdio.h(322) : warning C4995: 'sprintf': name was marked as #pragma deprecated
+1>d:\wdk7\inc\crt\stdio.h(322) : warning C4995: 'vsprintf': name was marked as #pragma deprecated
+1>d:\wdk7\inc\crt\stdio.h(416) : warning C4995: 'swprintf': name was marked as #pragma deprecated
+1>d:\wdk7\inc\crt\stdio.h(417) : warning C4995: 'vswprintf': name was marked as #pragma deprecated
+1>d:\wdk7\inc\crt\stdio.h(428) : warning C4995: '_snwprintf': name was marked as #pragma deprecated
+1>d:\wdk7\inc\crt\stdio.h(428) : warning C4995: '_vsnwprintf': name was marked as #pragma deprecated
+1>d:\wdk7\inc\crt\stdio.h(508) : warning C4995: 'swscanf': name was marked as #pragma deprecated
+1>d:\wdk7\inc\crt\stdio.h(514) : warning C4995: '_snwscanf': name was marked as #pragma deprecated
+1>d:\wdk7\inc\crt\stdio.h(518) : warning C4995: 'wscanf': name was marked as #pragma deprecated
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiycommon.h(8) : warning C4005: 'MAX_PATH' : macro redefinition
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiymondrv.c(154) : warning C4047: 'function' : 'PIO_CSQ_PEEK_NEXT_IRP' differs in levels of indirection from 'NTSTATUS (__stdcall *)(PIO_CSQ,PIRP,PVOID)'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiymondrv.c(154) : warning C4024: 'IoCsqInitialize' : different types for formal and actual parameter 4
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyminifiltercallback.c(30) : warning C4995: 'ExAcquireResourceExclusive': name was marked as #pragma deprecated
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyminifiltercallback.c(35) : warning C4995: 'ExReleaseResource': name was marked as #pragma deprecated
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiycommon.h(8) : warning C4005: 'MAX_PATH' : macro redefinition
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiymonuk.h(15) : warning C4005: 'MAX_PATH' : macro redefinition
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(35) : warning C4047: 'function' : 'PULONG' differs in levels of indirection from 'ULONG **'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(35) : warning C4024: 'ZwQueryInformationToken' : different types for formal and actual parameter 5
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(39) : warning C4047: 'function' : 'SIZE_T' differs in levels of indirection from 'ULONG *'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(39) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 2
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(43) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'ULONG *'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(43) : warning C4024: 'ZwQueryInformationToken' : different types for formal and actual parameter 4
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(43) : warning C4047: 'function' : 'PULONG' differs in levels of indirection from 'ULONG **'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(43) : warning C4024: 'ZwQueryInformationToken' : different types for formal and actual parameter 5
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(52) : warning C4047: 'function' : 'PULONG' differs in levels of indirection from 'ULONG **'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(52) : warning C4024: 'ZwQueryInformationToken' : different types for formal and actual parameter 5
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(58) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'PVOID'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(62) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'ULONG *'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(62) : warning C4024: 'ZwQueryInformationToken' : different types for formal and actual parameter 4
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(62) : warning C4047: 'function' : 'PULONG' differs in levels of indirection from 'ULONG **'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(62) : warning C4024: 'ZwQueryInformationToken' : different types for formal and actual parameter 5
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(65) : warning C4022: 'ExFreePoolWithTag' : pointer mismatch for actual parameter 1
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(73) : warning C4047: '=' : 'ULONG *' differs in levels of indirection from 'unsigned int'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(74) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'ULONG *'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(74) : warning C4024: 'ZwQueryInformationToken' : different types for formal and actual parameter 4
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(74) : warning C4047: 'function' : 'PULONG' differs in levels of indirection from 'ULONG **'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(74) : warning C4024: 'ZwQueryInformationToken' : different types for formal and actual parameter 5
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(79) : warning C4047: 'function' : 'PULONG' differs in levels of indirection from 'ULONG **'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(79) : warning C4024: 'ZwQueryInformationToken' : different types for formal and actual parameter 5
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(88) : warning C4047: 'function' : 'PULONG' differs in levels of indirection from 'ULONG **'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(88) : warning C4024: 'ZwQueryInformationToken' : different types for formal and actual parameter 5
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(91) : warning C4047: 'function' : 'SIZE_T' differs in levels of indirection from 'ULONG *'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(91) : warning C4024: 'ExAllocatePoolWithTag' : different types for formal and actual parameter 2
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(94) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'PVOID'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(95) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'ULONG *'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(95) : warning C4024: 'ZwQueryInformationToken' : different types for formal and actual parameter 4
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(95) : warning C4047: 'function' : 'PULONG' differs in levels of indirection from 'ULONG **'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(95) : warning C4024: 'ZwQueryInformationToken' : different types for formal and actual parameter 5
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(107) : warning C4047: 'function' : 'PULONG' differs in levels of indirection from 'ULONG **'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(107) : warning C4024: 'ZwQueryInformationToken' : different types for formal and actual parameter 5
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(149) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'HANDLE'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(149) : warning C4024: 'g_ZwOpenProcessTokenEx' : different types for formal and actual parameter 1
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(149) : warning C4047: 'function' : 'ULONG' differs in levels of indirection from 'HANDLE *'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(149) : warning C4024: 'g_ZwOpenProcessTokenEx' : different types for formal and actual parameter 4
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(154) : warning C4047: 'function' : 'TOKEN_STATISTICS *' differs in levels of indirection from 'PVOID *'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(154) : warning C4024: 'GetProcessToken' : different types for formal and actual parameter 2
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(155) : warning C4047: '=' : 'DWORD' differs in levels of indirection from 'PVOID'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(177) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'HANDLE'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(249) : warning C4047: 'function' : 'PVOID *' differs in levels of indirection from 'TOKEN_STATISTICS *'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(249) : warning C4022: 'GetProcessHandle' : pointer mismatch for actual parameter 2
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(249) : warning C4047: 'function' : 'TOKEN_USER *' differs in levels of indirection from 'TOKEN_USER **'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(249) : warning C4024: 'GetProcessHandle' : different types for formal and actual parameter 3
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(249) : warning C4047: 'function' : 'ULONG *' differs in levels of indirection from 'ULONG'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(249) : warning C4024: 'GetProcessHandle' : different types for formal and actual parameter 5
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(260) : warning C4047: 'function' : 'PPEB *' differs in levels of indirection from 'PPEB'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(260) : warning C4024: 'GetProcessParamtersByPeb' : different types for formal and actual parameter 2
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(260) : warning C4047: 'function' : 'PUNICODE_STRING' differs in levels of indirection from 'int'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(260) : warning C4024: 'GetProcessParamtersByPeb' : different types for formal and actual parameter 3
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(269) : warning C4047: 'function' : 'PIRP' differs in levels of indirection from 'int'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(269) : warning C4024: 'GetProcessInfoDataByPid' : different types for formal and actual parameter 3
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(293) : warning C4047: '=' : 'PVOID' differs in levels of indirection from 'size_t'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(417) : warning C4047: '!=' : 'HANDLE' differs in levels of indirection from 'ULONG'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(346) : warning C4102: 'LABEL_36' : unreferenced label
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(453) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'HANDLE'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(471) : warning C4047: '==' : 'ULONG' differs in levels of indirection from 'HANDLE'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(489) : warning C4047: 'function' : 'TOKEN_USER *' differs in levels of indirection from 'TOKEN_USER **'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(489) : warning C4024: 'GetProcessHandle' : different types for formal and actual parameter 3
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(505) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'HANDLE'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(553) : warning C4133: '=' : incompatible types - from 'PEB_LDR_DATA *' to 'PULONG'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(557) : warning C4047: '>=' : 'ULONG *' differs in levels of indirection from 'unsigned long'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(563) : warning C4090: 'function' : different 'const' qualifiers
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(567) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'ULONG *'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(661) : warning C4047: '==' : 'ULONG' differs in levels of indirection from 'HANDLE'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(675) : warning C4047: 'function' : 'PIRP' differs in levels of indirection from 'int'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(675) : warning C4024: 'GetProcessInfoDataByPid' : different types for formal and actual parameter 3
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(679) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'HANDLE'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(680) : warning C4047: '!=' : 'ULONG' differs in levels of indirection from 'HANDLE'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(682) : warning C4047: '=' : 'ULONG' differs in levels of indirection from 'PKTHREAD'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(683) : warning C4047: 'function' : 'PETHREAD' differs in levels of indirection from 'ULONG'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(683) : warning C4024: 'PsIsSystemThread' : different types for formal and actual parameter 1
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(816) : warning C4047: 'function' : 'POBJECT_TYPE' differs in levels of indirection from 'POBJECT_TYPE *'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(816) : warning C4024: 'ObReferenceObjectByHandle' : different types for formal and actual parameter 3
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(820) : warning C4133: 'function' : incompatible types - from '__int64 *' to 'PLARGE_INTEGER'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiyproc.c(943) : warning C4133: 'function' : incompatible types - from 'PROCESSPARAMDATA *' to 'RTL_USER_PROCESS_PARAMETERS *'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiycommon.h(8) : warning C4005: 'MAX_PATH' : macro redefinition
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiymonuk.h(15) : warning C4005: 'MAX_PATH' : macro redefinition
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiycommon.h(8) : warning C4005: 'MAX_PATH' : macro redefinition
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiycancelsafeirpqueue.c(46) : warning C4133: 'function' : incompatible types - from 'DEVICE_EXTENSION *' to 'PFAST_MUTEX'
+1>d:\code\git\antiymonitor-mfc\antiymondrv\antiycancelsafeirpqueue.c(51) : warning C4133: 'function' : incompatible types - from 'DEVICE_EXTENSION *' to 'PFAST_MUTEX'

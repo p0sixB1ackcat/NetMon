@@ -1,0 +1,20 @@
+
+
+386_OBJECTS=\
+ $(OBJ_PATH)\$O\antiymondrv.obj \
+ $(OBJ_PATH)\$O\antiyminifiltercallback.obj \
+ $(OBJ_PATH)\$O\antiyproc.obj \
+ $(OBJ_PATH)\$O\antiyminifilter.obj \
+ $(OBJ_PATH)\$O\antiycancelsafeirpqueue.obj \
+
+
+
+
+
+# lowercased
+BASEDIR=d:\wdk7
+OBJECT_ROOT=d:\wdk7
+MAKEDIR_LOWERCASE=d:\code\git\antiymonitor-mfc\antiymondrv
+OBJ_PATH=d:\code\git\antiymonitor-mfc\antiymondrv
+CONCURRENT_MIDL=0
+CONCURRENT_MANIFEST_BUILD=0

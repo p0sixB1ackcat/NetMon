@@ -1,0 +1,7 @@
+TARGETNAME=AntiyMonDrv
+TARGETPATH=Debug
+TARGETTYPE=DRIVER
+C_DEFINES = $(C_DEFINES) /DMY_DEBUG
+TARGETLIBS= $(TARGETLIBS) \
+            $(IFSKIT_LIB_PATH)\fltMgr.lib
+SOURCES=AntiyMonDrv.c AntiyMiniFilterCallback.c AntiyProc.c AntiyMiniFilter.c AntiyCancelSafeIrpQueue.c
